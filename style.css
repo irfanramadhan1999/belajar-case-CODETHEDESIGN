@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#card-twiter{
+    margin:auto;
+    margin-top: 100px;
+    width: 601px;
+    height: 228px;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border: 1px solid rgba(29, 161, 242, 0.2);
+    box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+}
+
+
+
+.data-profile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.frame-satu{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-profile{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+
+.nama{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.username{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+.frame-dua{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-twiter{
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+}
+
+.data-status{
+    margin-bottom: 15px;
+}
+
+
+.status{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #000000;
+}
+
+
+.reaction{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame-likes{
+    display: flex;
+    justify-content: center;
+}
+
+.likes{
+    width: 24px;
+    height: 24px;
+}
+
+.jumlah-likes{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 10px;
+    /* identical to box height, or 162% */
+
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.frame-date-likes{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: rgba(0, 0, 0, 0.6);
+margin-left: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    #card-twiter{
+    margin:auto;
+    margin-top: 100px;
+    width: 451px;
+    height: 228px;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border: 1px solid rgba(29, 161, 242, 0.2);
+    box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+}
+}
+
+@media screen and (max-width: 400px){
+        #card-twiter{
+        margin:auto;
+        margin-top: 100px;
+        width: 320px;
+        height: 250px;
+        display: flex;
+        border-radius: 10px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 31px;
+        padding-right: 31px;
+        border: 1px solid rgba(29, 161, 242, 0.2);
+        box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+        }
+}
